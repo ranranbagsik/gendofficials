@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gendhome.css">
+    <script src="https://kit.fontawesome.com/6d6cb9e98f.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/GEND TRANSPARENT.png" type="image/x-icon">
+</head>
+<body>  
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/GEND TRANSPARENT.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#members">Social</a></li>
+                <li><a href="#portfolio">Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi, Welcome!</p>
+            <h1>We are<br><span>Gen D!</span></h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/gend 2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Gen D!</h1>
+                <p>They are a true brothers and sisters even though they are not my true brothers and sister
+                and they are very kind na may pag ka tampururut.They are the true friends,
+                 they are the type that you can approach no matter what problems come in your life and no matter what trials come to the four of us, 
+                 we still never leave. They are like my brothers and sisters. 
+                They are the type of people who are with you to tease and laugh or wherever they are. 
+                They are the type who are ready to help and depend on you in everything and tell you about your problems even in life or in  the family</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('mayor')">Mayor</p>
+                    <p class="tab-links" onclick="opentab('vice mayor')">Vice Mayor</p>
+                    <p class="tab-links" onclick="opentab('sreccom')">Sreccom</p>
+                    <p class="tab-links" onclick="opentab('comfirm')">Comfirm</p>
+                </div>
+                <div class="tab-contents active-tab" id="mayor">
+                    <ul>
+                        <li><span>Grant Ian</span><br>The Mayor</li>
+                        <p>A Mayor, also known as a class representative, 
+                            is usually the leader of a student body class, 
+                            and presides over its class cabinet or organization within a student council. In a grade school, 
+                            mayor are generally elected by the class, a constituency composed of all students in a grade level.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="vice mayor">
+                    <ul>
+                        <li><span>Rhannie Rey</span><br>The Vice Mayor</li>
+                        <p>The position of Vice Mayor is an important role within your School 
+                            and they lead representation at the level of discipline or theme.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="sreccom">
+                    <ul>
+                        <li><span>Cyrel</span><br>The Sreccom</li>
+                        <p>A Sreccom is a professional who provides behind-the-scenes work for an office. 
+                            Their tasks include organizing files, 
+                            preparing documents, managing office supply inventory and scheduling appointments.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="comfirm">
+                    <ul>
+                        <li><span>Ezekiel</span><br>The Comfirm</li>
+                        <p>Comfirm are responsible for approving all student organization financial transactions. 
+                        Comfirm are expected to maintain records tracking every income and expense financial transaction.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="members">
+    <div class="container">
+        <h1 class="sub-title">Social Media</h1>
+        <div class="members-list">
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <h2>Grant Guese</h2>
+                <p>https://www.facebook.com/
+                grantiangueseii?mibextid=ZbWKwL</p>
+                    <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+            <h2>Rhannie Bagsik</h2>
+                <p>https://www.facebook.com/
+                rhanniereybagsik07?mibextid=ZbWKwL</p>
+                    <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+            <h2>Cyrel DelaCruz</h2>
+                <p>https://www.facebook.com/
+                    cyrel.delacruz.71?mibextid=ZbWKwL</p>
+                    <a href="#">Read more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+            <h2>Ezekiel Bermal</h2>
+                <p>https://www.facebook.com/
+                    profile.php?id=
+                    100082890495755&mibextid=ZbWKwL</p>
+                    <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Profile</h1>
+        <div class="portfolio-list">
+            <div class="port">
+                <img src="images/grant.jpg">
+                <div class="layer">
+                    <h3>Grant Ian Guese</h3>
+                    <p>Mayor</p>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <input type="checkbox" checked="checked" id="favorite" name="favorite-checkbox" value="favorite-button">
+<label for="favorite" class="container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+  <div class="action">
+    <span class="option-1">Add to Favorites</span>
+    <span class="option-2">Added to Favorites</span>
+  </div>
+</label>
+                </div>
+            </div>
+            <div class="port">
+                <img src="images/ranran.jpg">
+                <div class="layer">
+                    <h3>Rhannie Rey Bagsik</h3>
+                    <p>Vice Mayor</p>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <input type="checkbox" checked="checked" id="favorite" name="favorite-checkbox" value="favorite-button">
+<label for="favorite" class="container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+  <div class="action">
+    <span class="option-1">Add to Favorites</span>
+    <span class="option-2">Added to Favorites</span>
+  </div>
+</label>
+                </div>
+            </div>
+            <div class="port">
+                <img src="images/cy.jpg">
+                <div class="layer">
+                    <h3>Cyrel DelaCruz</h3>
+                    <p>Sreccom</p>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <input type="checkbox" checked="checked" id="favorite" name="favorite-checkbox" value="favorite-button">
+<label for="favorite" class="container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+  <div class="action">
+    <span class="option-1">Add to Favorites</span>
+    <span class="option-2">Added to Favorites</span>
+  </div>
+</label>
+                </div>
+            </div>
+            <div class="port">
+                <img src="images/ezy.jpg">
+                <div class="layer">
+                    <h3>Ezekiel Bermal</h3>
+                    <p>Comfirm</p>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <input type="checkbox" checked="checked" id="favorite" name="favorite-checkbox" value="favorite-button">
+<label for="favorite" class="container">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+  <div class="action">
+    <span class="option-1">Add to Favorites</span>
+    <span class="option-2">Added to Favorites</span>
+  </div>
+</label>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Follow Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>facebook.com/gendofficial</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/video.mp4" download class="btn btn2">Download Me!</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Yourname" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Messages"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ranran. Made with <i class="fa-solid fa-heart"></i> by RanDev </p>
+    </div>
+</div>
+
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+}
+
+</script>
+
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
